@@ -1,0 +1,18 @@
+<p-sidebar [(visible)]="visibleSidebar1">
+  <h3 style="font-weight:normal">Demo Application</h3>
+  <a class="nav-link active active-class" [routerLink]="['']" routerLinkActive="router-link-active">
+    <i class="fa fa-phone-square-alt"></i>Home</a>
+  <br>
+  <a class="nav-link" [routerLink]="['/employee']" routerLinkActive="router-link-active">Employee</a>
+  <br>
+  <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active">About us</a>
+  <br>
+  <a class="nav-link" href="#">Settings</a>
+  <br>
+  <a class="nav-link disabled" href="#">Disabled</a>
+</p-sidebar>
+
+<button pButton type="button" (click)="visibleSidebar1 = true; side()" icon="pi pi-arrow-right"></button>
+
+
+<!-- (click)="onSearchClick()"  -->

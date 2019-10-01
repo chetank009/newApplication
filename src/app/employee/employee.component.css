@@ -1,0 +1,21 @@
+button.btn.btn-info.btncolor {
+  float: right;
+  margin-right: 59px;
+}
+/* input.form-control {
+  margin-top: -42px;
+} */
+
+input.form-control.width {
+  width: 260px;
+  height: 33px;
+  margin-left: 12px;
+  margin-top: -38px;
+}
+.addemp {
+  float: right;
+}
+.serbtn {
+  margin-left: -101px;
+}
+
